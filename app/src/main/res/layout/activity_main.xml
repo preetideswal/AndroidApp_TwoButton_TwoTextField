@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41544511"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="338dp"
+        android:layout_height="59dp"
+        android:layout_margin="20dp"
+        android:background="#450909"
+        android:text="befor click"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="338dp"
+        android:layout_height="59dp"
+        android:layout_margin="20dp"
+        android:background="#450909"
+        android:text="befor click"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="111dp"
+        android:layout_height="71dp"
+        android:background="#450909"
+        android:text="1st Button"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="183dp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="111dp"
+        android:layout_height="74dp"
+        android:background="#450909"
+        android:text="2nd Button"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="180dp" />
+</LinearLayout>
